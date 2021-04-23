@@ -156,8 +156,7 @@ target | std | host | notes
 `aarch64-apple-tvos` | * |  | ARM64 tvOS
 `aarch64-unknown-freebsd` | ✓ | ✓ | ARM64 FreeBSD
 `aarch64-unknown-hermit` | ? |  |
-`aarch64-unknown-linux-gnu_ilp32` | ✓ | ✓ | ARM64 Linux (ILP32 ABI)
-`aarch64-unknown-netbsd` | ✓ | ✓ |
+`aarch64-unknown-netbsd` | ✓ | ✓ | ARM64 NetBSD
 `aarch64-unknown-openbsd` | ✓ | ✓ | ARM64 OpenBSD
 `aarch64-unknown-redox` | ? |  | ARM64 Redox OS
 `aarch64-uwp-windows-msvc` | ? |  |
@@ -170,7 +169,7 @@ target | std | host | notes
 `armv6-unknown-netbsd-eabihf` | ? |  |
 `armv7-apple-ios` | ✓ |  | ARMv7 iOS, Cortex-a8
 `armv7-unknown-freebsd` | ✓ | ✓ | ARMv7 FreeBSD
-`armv7-unknown-netbsd-eabihf` | ✓ | ✓ |
+`armv7-unknown-netbsd-eabihf` | ✓ | ✓ | ARMv7 NetBSD
 `armv7-wrs-vxworks-eabihf` | ? |  |
 `armv7a-none-eabihf` | * | | ARM Cortex-A, hardfloat
 `armv7s-apple-ios` | ✓ |  |
@@ -197,8 +196,7 @@ target | std | host | notes
 `msp430-none-elf` | * |  | 16-bit MSP430 microcontrollers
 `powerpc-unknown-linux-gnuspe` | ✓ |  | PowerPC SPE Linux
 `powerpc-unknown-linux-musl` | ? |  |
-`powerpc-unknown-netbsd` | ✓ | ✓ |
-`powerpc-unknown-openbsd` | ? |  |
+`powerpc-unknown-netbsd` | ✓ | ✓ | NetBSD/macppc and other NetBSD powerpc ports
 `powerpc-wrs-vxworks` | ? |  |
 `powerpc-wrs-vxworks-spe` | ? |  |
 `powerpc64-unknown-freebsd` | ✓ | ✓ | PPC64 FreeBSD (ELFv1 and ELFv2)
