@@ -156,6 +156,7 @@ target | std | host | notes
 `aarch64-apple-tvos` | * |  | ARM64 tvOS
 `aarch64-unknown-freebsd` | ✓ | ✓ | ARM64 FreeBSD
 `aarch64-unknown-hermit` | ? |  |
+`aarch64-unknown-linux-gnu_ilp32` | ✓ | ✓ | ARM64 Linux (ILP32 ABI)
 `aarch64-unknown-netbsd` | ✓ | ✓ | ARM64 NetBSD
 `aarch64-unknown-openbsd` | ✓ | ✓ | ARM64 OpenBSD
 `aarch64-unknown-redox` | ? |  | ARM64 Redox OS
@@ -197,6 +198,7 @@ target | std | host | notes
 `powerpc-unknown-linux-gnuspe` | ✓ |  | PowerPC SPE Linux
 `powerpc-unknown-linux-musl` | ? |  |
 `powerpc-unknown-netbsd` | ✓ | ✓ | NetBSD/macppc and other NetBSD powerpc ports
+`powerpc-unknown-openbsd` | ? |  |
 `powerpc-wrs-vxworks` | ? |  |
 `powerpc-wrs-vxworks-spe` | ? |  |
 `powerpc64-unknown-freebsd` | ✓ | ✓ | PPC64 FreeBSD (ELFv1 and ELFv2)
